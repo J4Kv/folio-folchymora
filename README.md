@@ -1,12 +1,32 @@
-# React + Vite
+# Estudio Jurídico Folch & Mora
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Sitio web profesional desarrollado para el Estudio Jurídico Folch & Mora, con funcionalidades que permiten:
 
-Currently, two official plugins are available:
+- Presentar el equipo legal y su experiencia
+- Mostrar las áreas de práctica: familia, penal y laboral
+- Permitir a los clientes realizar consultas legales vía formulario
+- Enviar datos en tiempo real mediante EmailJS
+- Diseño responsivo, elegante y adaptado para móviles y escritorio
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologías utilizadas
 
-## Expanding the ESLint configuration
+- React + Vite
+- TailwindCSS
+- EmailJS (envío de formularios)
+- Vercel (despliegue)
+- GitHub (versionado)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Desarrollado por
+
+**KT-System**  
+📧 jo.kusjanovic@duocuc.cl  
+🛡️ Proyecto desarrollado como solución profesional SaaS personalizada.
+
+---
+
+## 🛡️ Licencia
+
+Este proyecto está protegido bajo política de **“Todos los derechos reservados”**.  
+No está permitido el uso o reproducción del código sin autorización previa.
+
+© 2025 Jordan Kusjanovic – KT-System
