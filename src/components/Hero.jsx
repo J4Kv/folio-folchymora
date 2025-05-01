@@ -1,13 +1,13 @@
 function Hero() {
     return (
       <section
-        className="relative min-h-[80vh] flex flex-col justify-center items-center text-center px-6 text-white"
+        className="relative min-h-[80vh] flex flex-col justify-center items-center text-center px-6 text-white overflow-hidden"
         style={{
           backgroundImage: "url('/fondo.png')",
           backgroundSize: "cover",
           backgroundPosition: "top center",
           backgroundRepeat: "no-repeat",
-          backgroundAttachment: "fixed",
+          backgroundAttachment: "scroll",
           backgroundBlendMode: "overlay",
           backgroundColor: "#1e3a8a",
           backgroundPositionY: "-20px", // azul oscuro elegante
