@@ -16,7 +16,7 @@ function About() {
             className="rounded-xl shadow-lg w-full max-w-md object-cover"
           />
           <div className="mt-4 text-center">
-            <h2 className="text-xl font-semibold text-blue-900">Karen Mardones & Hans Folch</h2>
+            <h2 className="text-xl font-semibold text-blue-900">Karen Mora & Hans Folch</h2>
             <p className="text-gray-600 text-sm">Abogados fundadores</p>
           </div>
         </div>
@@ -24,7 +24,7 @@ function About() {
         {/* Descripción conjunta con mejoras */}
         <div className="max-w-3xl text-center text-gray-700 mt-4">
           <p className="text-lg mb-4 leading-relaxed">
-            Karen Mardones y Hans Folch cuentan con una sólida trayectoria en tramitaciones familiares, penales, civiles y mediaciones familiares, entregando atención personalizada en la región de Valparaíso.
+            Karen Mora y Hans Folch cuentan con una sólida trayectoria en tramitaciones familiares, penales, civiles y mediaciones familiares, entregando atención personalizada en la región de Valparaíso.
           </p>
           <p className="text-lg mb-4 leading-relaxed">
             Nuestro objetivo es brindarle la confianza y asesoría necesaria para proteger sus derechos y alcanzar las mejores soluciones legales.

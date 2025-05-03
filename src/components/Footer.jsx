@@ -2,8 +2,8 @@ function Footer() {
     return (
       <footer className="bg-blue-900 text-white text-center text-sm py-6 px-4">
         <p className="mb-2">
-          © {new Date().getFullYear()} Estudio Jurídico Folch & Mora | Desarrollado por{" "}
-          <span className="font-semibold">KT-System</span>
+          © {new Date().getFullYear()} Estudio Jurídico Folch & Mora {" "}
+          <span className="font-semibold"></span>
         </p>
         <a
           href="/privacidad"
