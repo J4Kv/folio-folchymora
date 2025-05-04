@@ -8,10 +8,10 @@ function Contact() {
     e.preventDefault();
 
     emailjs.sendForm(
-      'service_2you4pc',
-      'template_tcrgrge',
+      'service_2you4pc',        // Tu Service ID
+      'template_tcrgrge',       // Tu Template ID
       form.current,
-      'JneEtbGCmlSfjViTz'
+      'JneEtbGCmlSfjViTz'       // Tu Public Key
     )
     .then((result) => {
       console.log('Consulta enviada con éxito:', result.text);
@@ -35,7 +35,7 @@ function Contact() {
         backgroundColor: "#1e3a8a",
         backgroundBlendMode: "overlay",
         backgroundPositionY: "-20px",
-        }}
+      }}
     >
       <div className="bg-white/90 text-gray-800 rounded-xl shadow-lg p-8 w-full max-w-3xl mt-[10vh]">
         <h1 className="text-4xl font-bold text-center mb-6">Contáctanos</h1>
@@ -52,7 +52,7 @@ function Contact() {
             <input type="text" name="comuna" placeholder="Comuna" required className="border p-3 rounded-lg w-full" />
             <input type="text" name="region" placeholder="Región" required className="border p-3 rounded-lg w-full" />
             <div className="w-full">
-              <label hmtlFor="fechaNacimiento" className="text-sm text-gray-600 block mb-1">
+              <label htmlFor="fechaNacimiento" className="text-sm text-gray-600 block mb-1">
                 Fecha de Nacimiento
               </label>
               <input
@@ -60,9 +60,12 @@ function Contact() {
                 name="fechaNacimiento"
                 id="fechaNacimiento"
                 required
-                className="border p-3 rounded-lg w-full"/>
+                className="border p-3 rounded-lg w-full"
+              />
             </div>
             <input type="text" name="titulo_consulta" placeholder="Título de la Consulta" required className="border p-3 rounded-lg w-full" />
+            <input type="text" name="telefono" placeholder="Teléfono de contacto" required className="border p-3 rounded-lg w-full" />
+            <input type="email" name="correo" placeholder="Correo electrónico" required className="border p-3 rounded-lg w-full" />
           </div>
 
           <textarea
@@ -81,9 +84,11 @@ function Contact() {
         </form>
       </div>
 
-      <div className="text-center text-sm text-white mt-10">
+      {/* Información adicional */}
+      <div className="text-center text-sm text-white mt-10 space-y-2">
         <p><strong>Dirección:</strong> Valparaíso, Villa Alemana, Chile</p>
         <p><strong>Correo:</strong> folch.mora@gmail.com</p>
+        <p><strong>Teléfono:</strong> +56 9 8765 4321</p>
       </div>
     </section>
   );
