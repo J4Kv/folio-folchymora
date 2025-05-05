@@ -6,7 +6,7 @@ function Header() {
       <div className="container mx-auto flex justify-between items-center py-4 px-6">
         {/* Logo y Nombre del Estudio */}
         <div className="text-2xl font-bold text-blue-900">
-          FOLCH Y MORA ABOGADOS
+          FOLCH & MORA ABOGADOS
         </div>
 
         {/* Menú de navegación */}
